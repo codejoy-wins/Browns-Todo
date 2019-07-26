@@ -1,24 +1,28 @@
 import React from 'react';
-import logo from './logo.svg';
+// Assuming logo.png is in the same folder as JS file
+import obj from './obj.jpg';
+import obj2 from './beckham.png';
+import obj3 from './cleveland.jpg';
+
+
+// ...later
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Todo App 3</h1>
       </header>
+      <main>Main Content
+      <img class="widify" src={obj} alt="obj"></img>
+      <img class="widify" src={obj2} alt="obj"></img>
+      <img class="widify" src={obj3} alt="obj"></img>
+
+      </main>
+      <footer>
+        <a href="https://maxjann.com">Jann Software</a>
+      </footer>
     </div>
   );
 }
